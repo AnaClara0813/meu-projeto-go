@@ -5,9 +5,8 @@ package main
 // Importa os pacotes necessários
 import (
 	"fmt"
-
-	"github.com/seu-usuario/meu-projeto-go/internal/fibonacci"
-	"github.com/seu-usuario/meu-projeto-go/internal/hello"
+	"github.com/AnaClara0813/meu-projeto-go/internal/fibonacci"
+	"github.com/AnaClara0813/meu-projeto-go/internal/hello"
 )
 
 // Função principal do programa
