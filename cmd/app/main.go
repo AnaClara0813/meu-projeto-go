@@ -3,11 +3,12 @@
 package main
 
 import (
-	// "fmt"
+	"fmt"
 	// "github.com/AnaClara0813/meu-projeto-go/internal/fibonacci"
 	// "github.com/AnaClara0813/meu-projeto-go/internal/hello"
+	//"github.com/AnaClara0813/meu-projeto-go/internal/memoria-go"
+	"github.com/AnaClara0813/meu-projeto-go/internal/saudacoes"
 
-	"github.com/AnaClara0813/meu-projeto-go/internal/memoria-go"
 )
 
 func main() {
@@ -18,5 +19,13 @@ func main() {
 	// fmt.Printf("F(%d) = %d\n", n, valor)
 	// fibonacci.PrintSequence(n)
 
-	memoriago.Play()
+	//memoriago.Play()
+
+	saudar := saudacoes.NovaSaudacao("Bem-vinda")
+	fmt.Println(saudar("Ana Clara")) // -> "Bem-vinda, Ana Clara! "
+
+	saudacoes.PrintSaudacao("FacInpro")
+
+
+
 }
